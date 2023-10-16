@@ -16,3 +16,8 @@ class Lender(LenderTemplate):
     """This method is called when the link is clicked"""
     open_form('arrow-circle-left')
 
+  def text_area_1_change(self, **event_args):
+    """This method is called when the text in this text area is edited"""
+    
+
+
