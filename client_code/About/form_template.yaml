@@ -14,7 +14,7 @@ components:
     layout_properties: {grid_position: 'QEGKLN,CEBRXH'}
     components:
     - type: TextArea
-      properties: {role: null, align: left, height: 186.60000305175782, tooltip: '',
+      properties: {role: null, align: left, height: 645.0000198364257, tooltip: '',
         placeholder: '', border: '', enabled: true, foreground: '', visible: true,
         text: 'Online shopping is a form of electronic commerce which allows consumers
           to directly buy goods or services from a seller over the Internet using
@@ -49,10 +49,11 @@ components:
         bold: false, underline: false}
       name: text_area_1
       layout_properties: {grid_position: 'PIKGRR,AHOTBP'}
+      event_bindings: {change: text_area_1_change}
   - type: ColumnPanel
     properties: {role: outlined-card, col_widths: '{}'}
     name: outlined_card_1
-    layout_properties: {grid_position: 'PJFBJK,IFLVHL'}
+    layout_properties: {grid_position: 'ZEJVYM,LYZHAF'}
     components:
     - type: FlowPanel
       properties: {}
@@ -78,8 +79,9 @@ components:
         name: image_3
         layout_properties: {width: 310}
     - type: TextArea
-      properties: {role: null, align: left, height: '', tooltip: '', placeholder: '',
-        border: '', enabled: true, foreground: '', visible: true, text: 'Terminology
+      properties: {role: null, align: left, height: 281.40000610351564, tooltip: '',
+        placeholder: '', border: '', enabled: true, foreground: '', visible: true,
+        text: 'Terminology
 
           Alternative names for the activity are "e-tailing", a shortened form of
           "electronic retail" or "e-shopping", a shortened form of "electronic shopping".
@@ -111,18 +113,18 @@ components:
       name: label_2
       layout_properties: {grid_position: 'VJRPND,BKWSZG'}
     - type: TextArea
-      properties: {role: null, align: left, height: '', tooltip: '', placeholder: '',
-        border: '', enabled: true, foreground: '', visible: true, text: 'One of the
-          earliest forms of trade conducted online was IBM''s online transaction processing
-          (OLTP) developed in the 1960s, which allowed the processing of financial
-          transactions in real-time.[2] The computerized ticket reservation system
-          developed for American Airlines called Semi-Automatic Business Research
-          Environment (SABRE) was one of its applications. There, computer terminals
-          located in different travel agencies were linked to a large IBM mainframe
-          computer, which processed transactions simultaneously and coordinated them
-          so that all travel agents had access to the same information at the same
-          time.[2] At some point between 1971 and 1972, students at Stanford and MIT
-          used the internet precursor ARPANET to make a deal to exchange marijuana,
+      properties: {role: null, align: left, height: 716.999951171875, tooltip: '',
+        placeholder: '', border: '', enabled: true, foreground: '', visible: true,
+        text: 'One of the earliest forms of trade conducted online was IBM''s online
+          transaction processing (OLTP) developed in the 1960s, which allowed the
+          processing of financial transactions in real-time.[2] The computerized ticket
+          reservation system developed for American Airlines called Semi-Automatic
+          Business Research Environment (SABRE) was one of its applications. There,
+          computer terminals located in different travel agencies were linked to a
+          large IBM mainframe computer, which processed transactions simultaneously
+          and coordinated them so that all travel agents had access to the same information
+          at the same time.[2] At some point between 1971 and 1972, students at Stanford
+          and MIT used the internet precursor ARPANET to make a deal to exchange marijuana,
           but the interaction doesn''t qualify as e-commerce because no money was
           transferred online.[3]
 

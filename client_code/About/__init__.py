@@ -1,5 +1,6 @@
 from ._anvil_designer import AboutTemplate
 from anvil import *
+import anvil.server
 import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
@@ -23,6 +24,11 @@ class About(AboutTemplate):
   def link_1_click(self, **event_args):
     """This method is called when the link is clicked"""
     open_form('Home')
+
+  def text_area_1_change(self, **event_args):
+    """This method is called when the text in this text area is edited"""
+    pass
+
 
     
   

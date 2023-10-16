@@ -11,7 +11,8 @@ unique_ids:
     UnderFeedback: '1697445159051976706426458.2281'
     Home: 5SMV5PMQ4CRIWRHC422UIP6NP5NFAXTX
   modules: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1697463298047224696298219.99936'
   assets:
     standard-page.html: ZUZQOBF3TV42ZD5AB62EHBCY3OMEOPRP
     theme.css: NVSH6EYJ3OZ6CVWYFAYQDYAZTXGTRIAS

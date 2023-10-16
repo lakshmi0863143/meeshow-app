@@ -11,12 +11,18 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
   server_spec: null}
 startup_form: null
 db_schema:
-  table_1:
+  table_2:
     client: none
     server: full
     columns:
-    - name: Name
+    - name: 'Username '
       admin_ui: {width: 200, order: 0}
       type: string
-    title: Table 1
+    - name: password
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: time
+      admin_ui: {width: 200, order: 2}
+      type: datetime
+    title: Table 2
 renamed: true
