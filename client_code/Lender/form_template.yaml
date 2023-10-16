@@ -4,10 +4,18 @@ container:
   properties: {html: '@theme:standard-page.html'}
 components:
 - type: ColumnPanel
-  properties: {}
+  properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
+  components: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- type: Label
+  properties: {role: headline, align: left, tooltip: '', border: '', foreground: '#EB4D09',
+    visible: true, text: 'Lender     ', font_size: 20, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: true, background: '#EBAF09', bold: false,
+    underline: false, icon: 'fa:area-chart'}
+  name: label_1
+  layout_properties: {slot: title}

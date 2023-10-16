@@ -1,0 +1,58 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - type: ColumnPanel
+    properties: {role: outlined-card, col_widths: '{}'}
+    name: outlined_card_1
+    layout_properties: {grid_position: 'QBKYAM,QOLBFJ'}
+    components:
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'UserName ', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_2
+      layout_properties: {grid_position: 'GAOZVT,PQLPZV'}
+    - type: TextBox
+      properties: {}
+      name: text_box_1
+      layout_properties: {grid_position: 'GAOZVT,LXGZHL'}
+      event_bindings: {pressed_enter: text_box_1_pressed_enter}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: password, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_3
+      layout_properties: {grid_position: 'GHCQER,GVAVFM'}
+    - type: TextBox
+      properties: {}
+      name: text_box_2
+      layout_properties: {grid_position: 'GHCQER,JOJCSD'}
+      event_bindings: {pressed_enter: text_box_2_pressed_enter}
+  - type: Button
+    properties: {role: filled-button, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: Login, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: button_1
+    layout_properties: {grid_position: 'ZLSWKH,TLFTEA'}
+    event_bindings: {click: button_1_click}
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
+- type: Label
+  properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
+    text: 'Login       ', font_size: 20, font: '', spacing_above: small, icon_align: left,
+    spacing_below: small, italic: true, background: '#EB4509', bold: false, underline: false,
+    icon: 'fa:globe'}
+  name: label_1
+  layout_properties: {slot: title}
