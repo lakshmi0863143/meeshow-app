@@ -16,6 +16,11 @@ class About(AboutTemplate):
 
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
+
+  def link_1_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    open_form('Home')
+
     
   
 

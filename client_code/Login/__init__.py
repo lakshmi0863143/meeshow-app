@@ -17,6 +17,14 @@ class Login(LoginTemplate):
 
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
+
+  def link_1_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    username = self.text_box_1.text
+    password = self.text_box_2.text
+    alert('login succesfully')
+    open_form('Home')
+
     
 
 
